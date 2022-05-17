@@ -1,0 +1,20 @@
+name: vehicleDetection
+dependencies:
+    - python
+    - numpy
+    - pip
+    - pip:
+        - jupyter
+        - moviepy==0.2.3.2
+        - imageio==2.1.2
+        - imageio-ffmpeg
+        - matplotlib
+        - pillow
+        - scikit-learn
+        - scikit-image
+        - scipy
+        - h5py
+        - seaborn
+        - pandas
+        - opencv-python
+        - requests
