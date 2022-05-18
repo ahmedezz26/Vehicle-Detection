@@ -20,10 +20,17 @@ First, you need to get training data(cars and not-cars). You can get car images 
 
 * Python >= 3.4
 
-## Set up environment
+## Set up environment without Anaconda
 
 ```
 pip install -r requirements.txt
+```
+
+## Set up environment with Anaconda
+
+```
+conda env create -f environment.yml
+conda activate vehicleDetection
 ```
 
 ## Run jupyter notebook
